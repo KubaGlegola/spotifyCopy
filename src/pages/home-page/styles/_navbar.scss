@@ -1,0 +1,23 @@
+.navbar{
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);  
+    padding: 19px 16px;
+    z-index: 5;
+
+    & &__back-button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 46px;
+        height: 46px;
+        border-radius: 50%;
+        background: rgba(0, 0, 0, 0.5);
+    }
+
+    & &__icon{
+        height: 18px;
+    }
+}

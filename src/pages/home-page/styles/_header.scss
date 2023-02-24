@@ -1,0 +1,32 @@
+.header{    
+    height: 434px;
+    background-image: url('/images/headerBackground.jpg');
+    background-position: 80%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 16px;
+    padding: 0 0 32px 32px;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.04em;
+
+    & &__playlist{
+        margin: 0;
+    }
+
+    & &__title{
+        margin: 0;
+        font-size: 48px;
+        line-height: 1em;
+        letter-spacing: -0.04em;
+        font-weight: 700;   
+                        
+    }
+
+    & &__description{
+        color: #BFBFBF;
+        margin: 0;
+    }
+}

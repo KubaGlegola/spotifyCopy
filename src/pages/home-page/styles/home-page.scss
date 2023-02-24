@@ -1,0 +1,13 @@
+/// Homepage Styles File
+/// Here we import all the Styles files we need for our Homepage.
+/// 
+
+@import './navbar';
+@import './header';
+
+
+#home-page{
+    position: relative;
+    min-height: 200vh;
+}
+
