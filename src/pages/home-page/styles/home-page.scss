@@ -4,10 +4,31 @@
 
 @import './navbar';
 @import './header';
+@import './action';
+@import './song';
 
 
 #home-page{
     position: relative;
     min-height: 200vh;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 24px 16px;
+}
+
+.action-bar{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.songs-container{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
 }
 

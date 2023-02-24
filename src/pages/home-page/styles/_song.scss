@@ -1,0 +1,45 @@
+.song{
+    display: flex;
+    align-items: center;
+    padding: 17px 24px 16px 24px;
+    background-color: var(--dark-blue-color);
+    border-radius: 17px;
+
+    & &__number{
+        color: #BFBFBF;
+        font-size: 18px;
+        line-height: 22px; 
+        margin-right: 24px;       
+    }
+
+    & &__image{
+        width: 56px;
+        height: 56px;
+        margin-right: 24px;
+    }
+
+    & &__details{
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+    }
+
+    & &__album{
+        color: #BFBFBF;
+        font-size: 12px;
+        line-height: 14px;
+        font-weight: 500;         
+    }
+
+    & &__name{
+        font-size: 16px;
+        line-height: 19px;
+        font-weight: 500; 
+    }
+
+    & &__menu{
+        width: 36px;
+        height: 36px;
+        margin-left: auto;
+    }
+}
